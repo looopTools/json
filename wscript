@@ -28,8 +28,3 @@ def build(bld):
     )
 
     bld.recurse('waf_example')
-
-def install(ins):
-
-    if sys.platform == 'linux' or sys.platform == 'linux2':
-        return

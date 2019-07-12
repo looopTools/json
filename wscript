@@ -27,4 +27,4 @@ def build(bld):
         export_includes = './include'
     )
 
-    bld.recurse('waf_example')
+    bld.recurse('test/waf_import')

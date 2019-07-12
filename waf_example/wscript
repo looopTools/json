@@ -1,9 +1,0 @@
-import sys
-
-def build(bld):
-
-    bld(features = 'cxx cxxprogram',
-        target = 'waf_example',
-        source = 'waf_example.cpp',
-        use = ['mlohmann_json_includes']
-    )
